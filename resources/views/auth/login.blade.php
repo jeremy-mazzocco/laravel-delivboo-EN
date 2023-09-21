@@ -47,7 +47,7 @@
                                         {{ old('remember') ? 'checked' : '' }}>
 
                                     <label class="form-check-label" for="remember">
-                                        {{ __('Ricordami la password') }}
+                                        {{ __('Remeber my password') }}
                                     </label>
                                 </div>
                             </div>
@@ -56,14 +56,9 @@
                         <div class="mb-4 row mb-0">
                             <div class="col-md-8 offset-md-4">
                                 <button type="submit" class="btn btn-light">
-                                    {{ __('Accedi') }}
+                                    {{ __('Login') }}
                                 </button>
 
-                                {{-- @if (Route::has('password.request'))
-                                <a class="btn btn-link" href="{{ route('password.request') }}">
-                                    {{ __('Password dimenticata?') }}
-                                </a>
-                                @endif --}}
                             </div>
                         </div>
                     </form>

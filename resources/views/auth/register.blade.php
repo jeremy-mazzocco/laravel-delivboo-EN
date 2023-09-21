@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container" id="register">
-        <h1 class="text-center fw-bold text-white p-3">Registra qui il tuo ristorante</h1>
+        <h1 class="text-center fw-bold text-white p-3">Register your Restaurant</h1>
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card-body p-4">
@@ -10,12 +10,12 @@
                         @csrf
 
                         <div class="section">
-                            {{-- Campo: Nome ristorante --}}
+
                             <div class="mb-3 row">
                                 <label for="restaurant_name"
-                                    class="col-md-4 col-form-label text-md-right">{{ __('Nome ristorante') }}</label>
+                                    class="col-md-4 col-form-label text-md-right">{{ __('Name restaurant') }}</label>
                                 <div class="col-md-6">
-                                    <input id="restaurant_name" type="text" required title="Nome richiesto"
+                                    <input id="restaurant_name" type="text" required title="Name need"
                                         minlength="1" maxlength="255"
                                         class="form-control @error('Nome ristorante') is-invalid @enderror"
                                         name="restaurant_name" value="{{ old('restaurant_name') }}"
@@ -26,10 +26,10 @@
                                 </div>
                             </div>
 
-                            {{-- Campo: Indirizzo --}}
+
                             <div class="mb-3 row">
                                 <label for="address"
-                                    class="col-md-4 col-form-label text-md-right">{{ __('Indirizzo') }}</label>
+                                    class="col-md-4 col-form-label text-md-right">{{ __('Address') }}</label>
                                 <div class="col-md-6">
                                     <input id="address" type="text" minlength="5" maxlength="64"
                                         class="form-control @error('Indirizzo') is-invalid @enderror" name="address"
@@ -40,10 +40,10 @@
                                 </div>
                             </div>
 
-                            {{-- Campo: Partita Iva --}}
+
                             <div class="mb-3 row">
                                 <label for="vat_number"
-                                    class="col-md-4 col-form-label text-md-right">{{ __('Partita Iva') }}</label>
+                                    class="col-md-4 col-form-label text-md-right">{{ __('VAT') }}</label>
                                 <div class="col-md-6">
                                     <input id="vat_number" type="text" minlength="13" maxlength="13"
                                         class="form-control @error('Partita Iva') is-invalid @enderror" name="vat_number"
@@ -54,10 +54,9 @@
                                 </div>
                             </div>
 
-                            {{-- Campo: Numero di telefono --}}
                             <div class="mb-3 row">
                                 <label for="phone_number"
-                                    class="col-md-4 col-form-label text-md-right">{{ __('Numero di telefono') }}</label>
+                                    class="col-md-4 col-form-label text-md-right">{{ __('Phone number') }}</label>
                                 <div class="col-md-6">
                                     <input id="phone_number" type="text" minlength="9" maxlength="64"
                                         class="form-control @error('Numero di telefono') is-invalid @enderror"
@@ -71,10 +70,9 @@
                         </div>
 
                         <div class="section">
-                            {{-- Campo: Tipologie --}}
                             <div class="mb-3 row">
-                                <label for="phone_number"
-                                    class="col-md-4 col-form-label text-md-right">{{ __('Tipologie') }}</label>
+                                <label for="types"
+                                    class="col-md-4 col-form-label text-md-right">{{ __('Types') }}</label>
                                 <div class="category-container">
                                     @foreach ($types as $type)
                                         <div class="col-md-3 mb-2">
@@ -94,10 +92,9 @@
                         </div>
 
                         <div class="section">
-                            {{-- Campo: Immagine --}}
                             <div class="mb-3 row">
                                 <label for="img"
-                                    class="col-md-4 col-form-label text-md-right">{{ __('Immagine') }}</label>
+                                    class="col-md-4 col-form-label text-md-right">{{ __('Imagine') }}</label>
                                 <div class="col-md-6">
                                     <input id="img" type="file" maxlength="255" name="img" accept="image/*">
                                 </div>
@@ -109,7 +106,6 @@
 
 
                         <div class="section">
-                            {{-- Campo: E-Mail --}}
                             <div class="mb-3 row">
                                 <label for="email"
                                     class="col-md-4 col-form-label text-md-right">{{ __('E-Mail') }}</label>
@@ -123,7 +119,6 @@
                                 </div>
                             </div>
 
-                            {{-- Campo: Password --}}
                             <div class="mb-3 row">
                                 <label for="password"
                                     class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
@@ -137,10 +132,9 @@
                                 </div>
                             </div>
 
-                            {{-- Campo: Conferma Password --}}
                             <div class="mb-3 row">
                                 <label for="password-confirm"
-                                    class="col-md-4 col-form-label text-md-right">{{ __('Conferma password') }}</label>
+                                    class="col-md-4 col-form-label text-md-right">{{ __('Confirm password') }}</label>
                                 <div class="col-md-6">
                                     <input id="password-confirm" type="password" class="form-control"
                                         name="password_confirmation" required autocomplete="new-password">
@@ -151,11 +145,10 @@
                             </div>
                         </div>
 
-
                         <div class="mb-3 row mb-0">
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
-                                    {{ __('Registrati') }}
+                                    {{ __('Register') }}
                                 </button>
                             </div>
                         </div>
