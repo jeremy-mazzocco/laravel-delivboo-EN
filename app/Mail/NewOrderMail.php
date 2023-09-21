@@ -36,7 +36,7 @@ class NewOrderMail extends Mailable
     public function envelope()
     {
         return new Envelope(
-            subject: 'Il tuo ordine DeliveBoo!',
+            subject: 'Your order DeliveBoo!',
             replyTo: 'noreply@deliveboo.com'
         );
     }
