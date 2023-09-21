@@ -69,12 +69,12 @@
                                 @guest
                                     <li class="nav-item">
                                         <a class="nav-link text-light fs-6"
-                                            href="{{ route('login') }}">{{ __('Accedi') }}</a>
+                                            href="{{ route('login') }}">{{ __('Login') }}</a>
                                     </li>
                                     @if (Route::has('register'))
                                         <li class="nav-item">
                                             <a class="nav-link text-light fs-6 ms-3"
-                                                href="{{ route('register') }}">{{ __('Registra il tuo ristorante') }}</a>
+                                                href="{{ route('register') }}">{{ __('Register') }}</a>
                                         </li>
                                     @endif
                                 @else
@@ -112,9 +112,6 @@
             @yield('content')
         </main>
     </div>
-
-
-
 
 </body>
 

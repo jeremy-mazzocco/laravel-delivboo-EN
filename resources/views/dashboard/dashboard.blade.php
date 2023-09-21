@@ -10,22 +10,22 @@
             </div>
             <div class="text-nav">
                 <a href="{{ route('dish.show') }}" class="text-decoration-none">
-                    I tuoi Piatti
+                    Your Dishes
                 </a>
             </div>
             <div class="text-nav">
                 <a href="{{ route('dish.create') }}" class="text-decoration-none">
-                    Aggiungi Piatto
+                    Add Dish
                 </a>
             </div>
             <div class="text-nav">
                 <a href="{{ route('orders.show', Auth::user()->id) }}" class="text-decoration-none">
-                    Ordini clienti
+                    Customers Order
                 </a>
             </div>
             <div class="text-nav">
                 <a href="{{ route('orders.statistics', Auth::user()->id) }}" class="text-decoration-none">
-                    Statistiche
+                    Stats
                 </a>
             </div>
         </div>

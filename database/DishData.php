@@ -4,9 +4,9 @@ $dishesData = [
 
     [
 
-        'dish_name' => 'Pizza Margherita',
+        'dish_name' => 'Margherita Pizza',
 
-        'description' => 'Pizza classica con pomodoro, mozzarella e basilico.',
+        'description' => 'Classic pizza with tomato, mozzarella, and basil.',
 
         'price' => 8.99,
 
@@ -20,9 +20,9 @@ $dishesData = [
 
     [
 
-        'dish_name' => 'Spaghetti alla Carbonara',
+        'dish_name' => 'Spaghetti Carbonara',
 
-        'description' => 'Spaghetti con uova, pancetta, pecorino e pepe nero.',
+        'description' => 'Spaghetti with eggs, pancetta, pecorino cheese, and black pepper.',
 
         'price' => 12.99,
 
@@ -36,9 +36,9 @@ $dishesData = [
 
     [
 
-        'dish_name' => 'Lasagna al Forno',
+        'dish_name' => 'Lasagna Baked',
 
-        'description' => 'Lasagna con carne, besciamella e formaggio fuso.',
+        'description' => 'Lasagna with meat, béchamel sauce, and melted cheese.',
 
         'price' => 10.99,
 
@@ -52,9 +52,9 @@ $dishesData = [
 
     [
 
-        'dish_name' => 'Insalata Caprese',
+        'dish_name' => 'Caprese Salad',
 
-        'description' => "Insalata con pomodoro, mozzarella, basilico e olio d'oliva.",
+        'description' => "Salad with tomatoes, mozzarella, basil, and olive oil.",
 
         'price' => 7.99,
 
@@ -68,9 +68,9 @@ $dishesData = [
 
     [
 
-        'dish_name' => 'Risotto ai Funghi',
+        'dish_name' => 'Mushroom Risotto',
 
-        'description' => 'Risotto con funghi porcini e formaggio Parmigiano.',
+        'description' => 'Risotto with porcini mushrooms and Parmesan cheese.',
 
         'price' => 14.99,
 
@@ -84,9 +84,9 @@ $dishesData = [
 
     [
 
-        'dish_name' => 'Filetto di Salmone Grigliato',
+        'dish_name' => 'Grilled Salmon Fillet',
 
-        'description' => 'Filetto di salmone grigliato servito con salsa al limone.',
+        'description' => 'Grilled salmon fillet served with lemon sauce.',
 
         'price' => 16.99,
 
@@ -99,9 +99,9 @@ $dishesData = [
 
     [
 
-        'dish_name' => 'Tagliatelle al Tartufo',
+        'dish_name' => 'Truffle Tagliatelle',
 
-        'description' => 'Tagliatelle fresche con crema di tartufo nero.',
+        'description' => 'Fresh tagliatelle with black truffle cream.',
 
         'price' => 18.99,
 
@@ -115,9 +115,9 @@ $dishesData = [
 
     [
 
-        'dish_name' => 'Bistecca alla Fiorentina',
+        'dish_name' => 'Florentine Steak',
 
-        'description' => 'Bistecca alla griglia servita con contorni misti.',
+        'description' => 'Grilled steak served with mixed sides.',
 
         'price' => 22.99,
 
@@ -131,9 +131,9 @@ $dishesData = [
 
     [
 
-        'dish_name' => 'Carpaccio di Manzo',
+        'dish_name' => 'Beef Carpaccio',
 
-        'description' => 'Sottili fette di manzo marinato con rucola e Parmigiano.',
+        'description' => 'Thin slices of marinated beef with arugula and Parmesan.',
 
         'price' => 11.99,
 
@@ -147,9 +147,9 @@ $dishesData = [
 
     [
 
-        'dish_name' => 'Gnocchi al Gorgonzola',
+        'dish_name' => 'Gnocchi with Gorgonzola',
 
-        'description' => 'Gnocchi di patate con salsa al gorgonzola e noci.',
+        'description' => 'Potato gnocchi with Gorgonzola sauce and walnuts.',
 
         'price' => 13.99,
 
@@ -162,9 +162,9 @@ $dishesData = [
 
     [
 
-        'dish_name' => 'Tiramisù',
+        'dish_name' => 'Tiramisu',
 
-        'description' => 'Il classico dolce italiano al caffè e mascarpone.',
+        'description' => 'The classic Italian dessert with coffee and mascarpone.',
 
         'price' => 6.99,
 
@@ -178,9 +178,9 @@ $dishesData = [
 
     [
 
-        'dish_name' => 'Tagliolini al Limone',
+        'dish_name' => 'Lemon Tagliolini',
 
-        'description' => 'Tagliolini freschi con crema al limone e prezzemolo.',
+        'description' => 'Fresh tagliolini with lemon cream and parsley.',
 
         'price' => 12.99,
 
@@ -194,9 +194,9 @@ $dishesData = [
 
     [
 
-        'dish_name' => 'Cannoli Siciliani',
+        'dish_name' => 'Sicilian Cannoli',
 
-        'description' => 'Cannoli siciliani ripieni di ricotta e cioccolato.',
+        'description' => 'Sicilian cannoli filled with ricotta and chocolate.',
 
         'price' => 9.99,
 
@@ -210,9 +210,9 @@ $dishesData = [
 
     [
 
-        'dish_name' => 'Cotoletta alla Milanese',
+        'dish_name' => 'Milanese Chicken Cutlet',
 
-        'description' => 'Cotoletta di pollo impanata e fritta, servita con limone.',
+        'description' => 'Breaded and fried chicken cutlet served with lemon.',
 
         'price' => 15.99,
 
@@ -226,9 +226,9 @@ $dishesData = [
 
     [
 
-        'dish_name' => 'Sushi Misto',
+        'dish_name' => 'Assorted Sushi',
 
-        'description' => 'Assortimento di sushi con nigiri, maki e sashimi.',
+        'description' => 'Assortment of sushi with nigiri, maki, and sashimi.',
 
         'price' => 19.99,
 
@@ -242,9 +242,9 @@ $dishesData = [
 
     [
 
-        'dish_name' => 'Pasta al Pesto',
+        'dish_name' => 'Pasta with Pesto',
 
-        'description' => 'Pasta con salsa al pesto, basilico, pinoli e formaggio.',
+        'description' => 'Pasta with pesto sauce, basil, pine nuts, and cheese.',
 
         'price' => 10.99,
 
@@ -255,335 +255,9 @@ $dishesData = [
         'user_id' => 6
 
     ],
-
-    [
-
-        'dish_name' => "Gamberi all'Aglio",
-
-        'description' => 'Gamberi saltati in padella con aglio e prezzemolo.',
-
-        'price' => 16.99,
-
-        'img' => 'uploads/gamberi_aglio.jpg',
-
-        'visibility' => true,
-
-        'user_id' => 7
-
-    ],
-
-    [
-
-        'dish_name' => 'Tartare di Salmone',
-
-        'description' => 'Tartare di salmone fresco con avocado e lime.',
-
-        'price' => 14.99,
-
-        'img' => 'uploads/tartare_salmone.jpg',
-
-        'visibility' => true,
-
-        'user_id' => 8
-
-    ],
-
-    [
-
-        'dish_name' => 'Panna Cotta',
-
-        'description' => 'Dolce italiano con crema di vaniglia e salsa di frutti di bosco.',
-
-        'price' => 7.99,
-
-        'img' => 'uploads/panna_cotta.jpg',
-
-        'visibility' => true,
-
-        'user_id' => 9
-
-    ],
-
-    [
-
-        'dish_name' => "Rigatoni all'Arrabbiata",
-
-        'description' => 'Rigatoni con salsa all\'arrabbiata e peperoncino.',
-
-        'price' => 11.99,
-
-        'img' => 'uploads/rigatoni_arrabbiata.jpg',
-
-        'visibility' => true,
-
-        'user_id' => 10
-
-    ],
-
-    [
-        'dish_name' => 'Spaghetti Aglio e Olio',
-        'description' => 'Spaghetti con olio d\'oliva, aglio e peperoncino.',
-        'price' => 8.99,
-        'img' => 'uploads/spaghetti_aglio_olio.jpg',
-        'visibility' => true,
-        'user_id' => 1,
-    ],
-
-    [
-        'dish_name' => 'Insalata Caprese',
-        'description' => 'Insalata con pomodoro, mozzarella, basilico e olio d\'oliva.',
-        'price' => 6.99,
-        'img' => 'uploads/insalata_caprese.jpg',
-        'visibility' => true,
-        'user_id' => 2,
-    ],
-
-    [
-        'dish_name' => 'Pizza Pepperoni',
-        'description' => 'Pizza con pomodoro, mozzarella e peperoni piccanti.',
-        'price' => 9.99,
-        'img' => 'uploads/pizza_pepperoni.jpg',
-        'visibility' => true,
-        'user_id' => 3,
-    ],
-
-    [
-        'dish_name' => 'Lasagne al Forno',
-        'description' => 'Lasagne con carne macinata, besciamella e formaggio.',
-        'price' => 14.99,
-        'img' => 'uploads/lasagne_al_forno.jpg',
-        'visibility' => true,
-        'user_id' => 4,
-    ],
-
-    [
-        'dish_name' => 'Risotto ai Funghi',
-        'description' => 'Risotto con funghi porcini, cipolla e vino bianco.',
-        'price' => 11.99,
-        'img' => 'uploads/risotto_funghi.jpg',
-        'visibility' => true,
-        'user_id' => 5,
-    ],
-
-    [
-        'dish_name' => 'Piadina Prosciutto e Formaggio',
-        'description' => 'Piadina con prosciutto crudo e formaggio.',
-        'price' => 7.99,
-        'img' => 'uploads/piadina_prosciutto.jpg',
-        'visibility' => true,
-        'user_id' => 6,
-    ],
-
-    [
-        'dish_name' => 'Bistecca alla Fiorentina',
-        'description' => 'Bistecca alla griglia con olio d\'oliva e rosmarino.',
-        'price' => 19.99,
-        'img' => 'uploads/bistecca_fiorentina.jpg',
-        'visibility' => true,
-        'user_id' => 7,
-    ],
-
-    [
-        'dish_name' => 'Salmone alla Griglia',
-        'description' => 'Filetto di salmone alla griglia con limone e erbe aromatiche.',
-        'price' => 15.99,
-        'img' => 'uploads/salmone_griglia.jpg',
-        'visibility' => true,
-        'user_id' => 8,
-    ],
-
-    [
-        'dish_name' => 'Pizza Vegetariana',
-        'description' => 'Pizza con pomodoro, mozzarella e verdure fresche.',
-        'price' => 10.99,
-        'img' => 'uploads/pizza_vegetariana.jpg',
-        'visibility' => true,
-        'user_id' => 9,
-    ],
-
-    [
-        'dish_name' => 'Pasta al Pesto',
-        'description' => 'Pasta con pesto alla genovese, basilico e pinoli.',
-        'price' => 10.99,
-        'img' => 'uploads/pasta_pesto.jpg',
-        'visibility' => true,
-        'user_id' => 10,
-    ],
-
-    [
-        'dish_name' => 'Carbonara con Pancetta',
-        'description' => 'Pasta alla carbonara con uova, pancetta e pecorino romano.',
-        'price' => 12.99,
-        'img' => 'uploads/carbonara_pancetta.jpg',
-        'visibility' => true,
-        'user_id' => 1,
-    ],
-
-    [
-        'dish_name' => 'Pizza Quattro Stagioni',
-        'description' => 'Pizza con pomodoro, mozzarella e quattro tipi di condimenti stagionali.',
-        'price' => 10.99,
-        'img' => 'uploads/pizza_quattro_stagioni.jpg',
-        'visibility' => true,
-        'user_id' => 2,
-    ],
-
-    [
-        'dish_name' => 'Tagliatelle al Tartufo',
-        'description' => 'Tagliatelle con crema al tartufo bianco e funghi porcini.',
-        'price' => 14.99,
-        'img' => 'uploads/tagliatelle_tartufo.jpg',
-        'visibility' => true,
-        'user_id' => 3,
-    ],
-
-    [
-        'dish_name' => 'Piadina Vegetariana',
-        'description' => 'Piadina con verdure grigliate, formaggio e pesto.',
-        'price' => 8.99,
-        'img' => 'uploads/piadina_vegetariana.jpg',
-        'visibility' => true,
-        'user_id' => 4,
-    ],
-
-    [
-        'dish_name' => 'Costolette di Maiale alla Griglia',
-        'description' => 'Costolette di maiale alla griglia con salsa barbecue.',
-        'price' => 16.99,
-        'img' => 'uploads/costolette_maiale.jpg',
-        'visibility' => true,
-        'user_id' => 5,
-    ],
-
-    [
-        'dish_name' => 'Sushi Misto',
-        'description' => 'Selezione di sushi misto con sashimi, nigiri e maki rolls.',
-        'price' => 18.99,
-        'img' => 'uploads/sushi_misto.jpg',
-        'visibility' => true,
-        'user_id' => 6,
-    ],
-
-    [
-        'dish_name' => 'Insalata Waldorf',
-        'description' => 'Insalata con sedano, mele, uvetta e noci in una salsa al maionese.',
-        'price' => 9.99,
-        'img' => 'uploads/insalata_waldorf.jpg',
-        'visibility' => true,
-        'user_id' => 7,
-    ],
-
-    [
-        'dish_name' => 'Pizza Margherita Extra',
-        'description' => 'Pizza con pomodoro, mozzarella di bufala e basilico fresco.',
-        'price' => 11.99,
-        'img' => 'uploads/pizza_margherita_extra.jpg',
-        'visibility' => true,
-        'user_id' => 8,
-    ],
-
-    [
-        'dish_name' => 'Pasta alla Norma',
-        'description' => 'Pasta con pomodoro, melanzane, ricotta salata e basilico.',
-        'price' => 10.99,
-        'img' => 'uploads/pasta_norma.jpg',
-        'visibility' => true,
-        'user_id' => 9,
-    ],
-
-    [
-        'dish_name' => 'Torta di Mele',
-        'description' => 'Torta di mele fatta in casa con una crosta croccante.',
-        'price' => 6.99,
-        'img' => 'uploads/torta_mele.jpg',
-        'visibility' => true,
-        'user_id' => 10,
-    ],
-
-    [
-        'dish_name' => 'Gnocchi al Pesto',
-        'description' => 'Gnocchi con pesto alla genovese e pinoli.',
-        'price' => 11.99,
-        'img' => 'uploads/gnocchi_pesto.jpg',
-        'visibility' => true,
-        'user_id' => 1,
-    ],
-
-    [
-        'dish_name' => 'Pizza Prosciutto e Funghi',
-        'description' => 'Pizza con pomodoro, mozzarella, prosciutto cotto e funghi.',
-        'price' => 10.99,
-        'img' => 'uploads/pizza_prosciutto_funghi.jpg',
-        'visibility' => true,
-        'user_id' => 2,
-    ],
-
-    [
-        'dish_name' => 'Linguine al Frutti di Mare',
-        'description' => 'Linguine con frutti di mare, aglio e peperoncino.',
-        'price' => 15.99,
-        'img' => 'uploads/linguine_frutti_di_mare.jpg',
-        'visibility' => true,
-        'user_id' => 3,
-    ],
-
-    [
-        'dish_name' => 'Torta al Cioccolato',
-        'description' => 'Torta al cioccolato con glassa al cioccolato fondente.',
-        'price' => 7.99,
-        'img' => 'uploads/torta_cioccolato.jpg',
-        'visibility' => true,
-        'user_id' => 4,
-    ],
-
-    [
-        'dish_name' => 'Pasta all\'Arrabbiata',
-        'description' => 'Pasta all\'arrabbiata con pomodoro, aglio e peperoncino.',
-        'price' => 9.99,
-        'img' => 'uploads/pasta_arrabbiata.jpg',
-        'visibility' => true,
-        'user_id' => 5,
-    ],
-
-    [
-        'dish_name' => 'Carpaccio di Manzo',
-        'description' => 'Carpaccio di manzo con rucola e scaglie di parmigiano.',
-        'price' => 12.99,
-        'img' => 'uploads/carpaccio_manzo.jpg',
-        'visibility' => true,
-        'user_id' => 6,
-    ],
-
-    [
-        'dish_name' => 'Sushi Sashimi Deluxe',
-        'description' => 'Assortimento di sashimi di pesce fresco e nigiri.',
-        'price' => 22.99,
-        'img' => 'uploads/sushi_sashimi_deluxe.jpg',
-        'visibility' => true,
-        'user_id' => 7,
-    ],
-
-    [
-        'dish_name' => 'Insalata di Quinoa',
-        'description' => 'Insalata di quinoa con avocado, pomodori e cetrioli.',
-        'price' => 10.99,
-        'img' => 'uploads/insalata_quinoa.jpg',
-        'visibility' => true,
-        'user_id' => 8,
-    ],
-
-    [
-        'dish_name' => 'Pizza Hawaii',
-        'description' => 'Pizza con pomodoro, mozzarella, prosciutto cotto e ananas.',
-        'price' => 10.99,
-        'img' => 'uploads/pizza_hawaii.jpg',
-        'visibility' => true,
-        'user_id' => 9,
-    ],
-
     [
         'dish_name' => 'Penne all\'Arrabbiata',
-        'description' => 'Penne all\'arrabbiata con pomodoro, aglio e peperoncino.',
+        'description' => 'Penne all\'arrabbiata with tomato, garlic, and chili.',
         'price' => 9.99,
         'img' => 'uploads/penne_arrabbiata.jpg',
         'visibility' => true,
@@ -591,8 +265,8 @@ $dishesData = [
     ],
 
     [
-        'dish_name' => 'Penne alla Carbonara',
-        'description' => 'Penne con uova, pancetta, pecorino e pepe nero.',
+        'dish_name' => 'Penne Carbonara',
+        'description' => 'Penne with eggs, bacon, pecorino cheese, and black pepper.',
         'price' => 12.99,
         'img' => 'uploads/penne_carbonara.jpg',
         'visibility' => true,
@@ -600,8 +274,8 @@ $dishesData = [
     ],
 
     [
-        'dish_name' => 'Pizza Quattro Formaggi',
-        'description' => 'Pizza con pomodoro e quattro tipi di formaggio.',
+        'dish_name' => 'Four Cheese Pizza',
+        'description' => 'Pizza with tomato and four types of cheese.',
         'price' => 10.99,
         'img' => 'uploads/pizza_quattro_formaggi.jpg',
         'visibility' => true,
@@ -609,8 +283,8 @@ $dishesData = [
     ],
 
     [
-        'dish_name' => 'Spaghetti alle Vongole',
-        'description' => 'Spaghetti con vongole, aglio, prezzemolo e peperoncino.',
+        'dish_name' => 'Spaghetti with Clams',
+        'description' => 'Spaghetti with clams, garlic, parsley, and chili.',
         'price' => 14.99,
         'img' => 'uploads/spaghetti_vongole.jpg',
         'visibility' => true,
@@ -618,8 +292,8 @@ $dishesData = [
     ],
 
     [
-        'dish_name' => 'Torta al Limone',
-        'description' => 'Torta al limone con glassa al limone e scorza grattugiata.',
+        'dish_name' => 'Lemon Cake',
+        'description' => 'Lemon cake with lemon glaze and grated zest.',
         'price' => 7.99,
         'img' => 'uploads/torta_limone.jpg',
         'visibility' => true,
@@ -627,8 +301,8 @@ $dishesData = [
     ],
 
     [
-        'dish_name' => 'Fusilli al Pesto',
-        'description' => 'Fusilli con pesto alla genovese, pomodori secchi e pinoli.',
+        'dish_name' => 'Fusilli with Pesto',
+        'description' => 'Fusilli with Genovese pesto, sun-dried tomatoes, and pine nuts.',
         'price' => 10.99,
         'img' => 'uploads/fusilli_pesto.jpg',
         'visibility' => true,
@@ -636,8 +310,8 @@ $dishesData = [
     ],
 
     [
-        'dish_name' => 'Insalata Greca',
-        'description' => 'Insalata con pomodori, cetrioli, olive e formaggio feta.',
+        'dish_name' => 'Greek Salad',
+        'description' => 'Salad with tomatoes, cucumbers, olives, and feta cheese.',
         'price' => 9.99,
         'img' => 'uploads/insalata_greca.jpg',
         'visibility' => true,
@@ -645,8 +319,8 @@ $dishesData = [
     ],
 
     [
-        'dish_name' => 'Sushi California Rolls',
-        'description' => 'Sushi California Rolls con avocado, surimi e cetriolo.',
+        'dish_name' => 'California Rolls Sushi',
+        'description' => 'California Rolls sushi with avocado, surimi, and cucumber.',
         'price' => 18.99,
         'img' => 'uploads/sushi_california_rolls.jpg',
         'visibility' => true,
@@ -654,8 +328,8 @@ $dishesData = [
     ],
 
     [
-        'dish_name' => 'Insalata di Pollo',
-        'description' => 'Insalata con petto di pollo grigliato, lattuga e dressing al ranch.',
+        'dish_name' => 'Chicken Salad',
+        'description' => 'Salad with grilled chicken breast, lettuce, and ranch dressing.',
         'price' => 11.99,
         'img' => 'uploads/insalata_pollo.jpg',
         'visibility' => true,
@@ -663,8 +337,8 @@ $dishesData = [
     ],
 
     [
-        'dish_name' => 'Pizza Prosciutto e Funghi',
-        'description' => 'Pizza con pomodoro, mozzarella, prosciutto cotto e funghi.',
+        'dish_name' => 'Ham and Mushroom Pizza',
+        'description' => 'Pizza with tomato, mozzarella, ham, and mushrooms.',
         'price' => 10.99,
         'img' => 'uploads/pizza_prosciutto_funghi.jpg',
         'visibility' => true,
@@ -673,170 +347,281 @@ $dishesData = [
 
     [
         'dish_name' => 'Fettuccine Alfredo',
-        'description' => 'Fettuccine con salsa alfredo a base di panna e parmigiano.',
+        'description' => 'Fettuccine with Alfredo sauce made with cream and Parmesan cheese.',
         'price' => 13.99,
         'img' => 'uploads/fettuccine_alfredo.jpg',
         'visibility' => true,
         'user_id' => 10,
     ],
+
+
+
     [
-        'dish_name' => 'Marmellata di Stelle Cadenti',
-        'description' => 'Una deliziosa marmellata fatta con stelle cadenti raccolte a mano durante le notti stellate.',
+        'dish_name' => 'Shooting Stars Jam',
+        'description' => 'A delightful jam made with shooting stars handpicked during starry nights.',
         'price' => 9.99,
         'img' => 'uploads/marmellata_stelle_cadenti.jpg',
         'visibility' => true,
         'user_id' => 1,
     ],
+
     [
-        'dish_name' => 'Pizza Aliena Extraterrestre',
-        'description' => 'Una pizza fuori dal comune con ingredienti provenienti da altri pianeti. Gusto spaziale garantito!',
+        'dish_name' => 'Alien Extraterrestrial Pizza',
+        'description' => 'An extraordinary pizza with ingredients from other planets. Guaranteed intergalactic flavor!',
         'price' => 15.49,
         'img' => 'uploads/pizza_aliena_extraterrestre.jpg',
         'visibility' => true,
         'user_id' => 2,
     ],
+
     [
-        'dish_name' => 'Spaghetti Vulcanici',
-        'description' => 'Spaghetti con una salsa piccante ispirata ai vulcani. Un\'esplosione di sapore in ogni boccone!',
+        'dish_name' => 'Volcanic Spaghetti',
+        'description' => 'Spaghetti with a spicy volcano-inspired sauce. An explosion of flavor in every bite!',
         'price' => 14.99,
         'img' => 'uploads/spaghetti_vulcanici.jpg',
         'visibility' => true,
         'user_id' => 3,
     ],
+
     [
-        'dish_name' => 'Gelato Arcobaleno',
-        'description' => 'Un gelato con tutti i colori dell\'arcobaleno. Un\'esperienza gustativa unica e colorata!',
+        'dish_name' => 'Rainbow Sorbet',
+        'description' => 'Sorbet with all the colors of the rainbow. A unique and colorful taste experience!',
         'price' => 8.99,
         'img' => 'uploads/gelato_arcobaleno.jpg',
         'visibility' => true,
         'user_id' => 4,
     ],
+
     [
-        'dish_name' => 'Insalata delle Fate',
-        'description' => 'Un\'insalata leggera e magica fatta con foglie di fata e condita con polvere di stelle.',
+        'dish_name' => 'Fairy Salad',
+        'description' => 'A light and magical salad made with fairy leaves and seasoned with star powder.',
         'price' => 10.99,
         'img' => 'uploads/insalata_fate.jpg',
         'visibility' => true,
         'user_id' => 5,
     ],
+
     [
-        'dish_name' => 'Tiramisù Astrale',
-        'description' => 'Un tiramisù ispirato alle costellazioni con una cremosa galassia di mascarpone e caffè.',
+        'dish_name' => 'Starry Tiramisu',
+        'description' => 'A tiramisu inspired by constellations with a creamy galaxy of mascarpone and coffee.',
         'price' => 11.99,
         'img' => 'uploads/tiramisu_astrale.jpg',
         'visibility' => true,
         'user_id' => 6,
     ],
+
     [
-        'dish_name' => 'Sushi Interstellare',
-        'description' => 'Sushi fatto con ingredienti provenienti da galassie lontane. Gusto alieno a portata di chopsticks!',
+        'dish_name' => 'Interstellar Sushi',
+        'description' => 'Sushi made with ingredients from distant galaxies. Alien taste at your chopsticks!',
         'price' => 18.99,
         'img' => 'uploads/sushi_interstellare.jpg',
         'visibility' => true,
         'user_id' => 7,
     ],
+
     [
-        'dish_name' => 'Pasta dei Dinosauri',
-        'description' => 'Una pasta a forma di dinosauri provenienti direttamente dal passato. Una scoperta culinaria!',
+        'dish_name' => 'Dinosaur Pasta',
+        'description' => 'Dinosaur-shaped pasta straight from the past. A culinary discovery!',
         'price' => 12.99,
         'img' => 'uploads/pasta_dinosauri.jpg',
         'visibility' => true,
         'user_id' => 8,
     ],
+
     [
-        'dish_name' => 'Bistecca Alienigena',
-        'description' => 'Una bistecca proveniente da un pianeta sconosciuto. Una carne tenera e saporita da un altro mondo!',
+        'dish_name' => 'Alien Steak',
+        'description' => 'A steak from an unknown planet. Tender and flavorful from another world!',
         'price' => 20.99,
         'img' => 'uploads/bistecca_alienigena.jpg',
         'visibility' => true,
         'user_id' => 9,
     ],
     [
-        'dish_name' => 'Risotto delle Sirene',
-        'description' => 'Un risotto fatto con riso coltivato sul fondo del mare e condito con le voci melodiose delle sirene.',
-        'price' => 16.99,
-        'img' => 'uploads/risotto_sirene.jpg',
+        'dish_name' => 'Penne all\'Arrabbiata',
+        'description' => 'Penne all\'arrabbiata with tomato, garlic, and chili.',
+        'price' => 9.99,
+        'img' => 'uploads/penne_arrabbiata.jpg',
         'visibility' => true,
         'user_id' => 10,
     ],
 
     [
-        'dish_name' => 'Penne alla Nebulosa',
-        'description' => 'Penne con una salsa cremosa ispirata alle nebulose dello spazio profondo.',
-        'price' => 13.49,
-        'img' => 'uploads/penne_nebulosa.jpg',
+        'dish_name' => 'Penne Carbonara',
+        'description' => 'Penne with eggs, bacon, pecorino cheese, and black pepper.',
+        'price' => 12.99,
+        'img' => 'uploads/penne_carbonara.jpg',
         'visibility' => true,
         'user_id' => 1,
     ],
+
     [
-        'dish_name' => 'Burger Galattico',
-        'description' => 'Un hamburger fatto con carne di un asteroide e condito con una salsa cosmica.',
-        'price' => 14.99,
-        'img' => 'uploads/burger_galattico.jpg',
+        'dish_name' => 'Four Cheese Pizza',
+        'description' => 'Pizza with tomato and four types of cheese.',
+        'price' => 10.99,
+        'img' => 'uploads/pizza_quattro_formaggi.jpg',
         'visibility' => true,
         'user_id' => 2,
     ],
+
     [
-        'dish_name' => 'Tè delle Stelle',
-        'description' => 'Una tazza di tè fatto con erbe provenienti da sistemi solari lontani. Un\'esperienza rilassante e aliena.',
-        'price' => 6.99,
-        'img' => 'uploads/te_stelle.jpg',
+        'dish_name' => 'Spaghetti with Clams',
+        'description' => 'Spaghetti with clams, garlic, parsley, and chili.',
+        'price' => 14.99,
+        'img' => 'uploads/spaghetti_vongole.jpg',
         'visibility' => true,
         'user_id' => 3,
     ],
+
     [
-        'dish_name' => 'Ravioli Spaziali',
-        'description' => 'Ravioli ripieni di segreti cosmici e saporiti con una salsa che attraversa le galassie.',
-        'price' => 15.99,
-        'img' => 'uploads/ravioli_spaziali.jpg',
+        'dish_name' => 'Lemon Cake',
+        'description' => 'Lemon cake with lemon glaze and grated zest.',
+        'price' => 7.99,
+        'img' => 'uploads/torta_limone.jpg',
         'visibility' => true,
         'user_id' => 4,
     ],
+
     [
-        'dish_name' => 'Sorbetto Extraterrestre',
-        'description' => 'Un sorbetto fatto con frutta proveniente da un altro pianeta. Fresco e fuori dal mondo!',
-        'price' => 7.99,
-        'img' => 'uploads/sorbetto_extraterrestre.jpg',
+        'dish_name' => 'Fusilli with Pesto',
+        'description' => 'Fusilli with Genovese pesto, sun-dried tomatoes, and pine nuts.',
+        'price' => 10.99,
+        'img' => 'uploads/fusilli_pesto.jpg',
         'visibility' => true,
         'user_id' => 5,
     ],
+
     [
-        'dish_name' => 'Pancake Astronomici',
-        'description' => 'Pancake alti come le montagne con sciroppo proveniente dall\'Universo. Una colazione da astronauti!',
+        'dish_name' => 'Greek Salad',
+        'description' => 'Salad with tomatoes, cucumbers, olives, and feta cheese.',
         'price' => 9.99,
-        'img' => 'uploads/pancake_astronomici.jpg',
+        'img' => 'uploads/insalata_greca.jpg',
         'visibility' => true,
         'user_id' => 6,
     ],
+
     [
-        'dish_name' => 'Cocktail Intergalattici',
-        'description' => 'Cocktail che ti faranno viaggiare tra le stelle con ogni sorso. L\'aperitivo perfetto per gli esploratori cosmici!',
-        'price' => 11.49,
-        'img' => 'uploads/cocktail_intergalattici.jpg',
+        'dish_name' => 'California Rolls Sushi',
+        'description' => 'California Rolls sushi with avocado, surimi, and cucumber.',
+        'price' => 18.99,
+        'img' => 'uploads/sushi_california_rolls.jpg',
         'visibility' => true,
         'user_id' => 7,
     ],
+
     [
-        'dish_name' => 'Gnocchi dello Spazio Profondo',
-        'description' => 'Gnocchi fatti con patate provenienti da una regione ignota dello spazio profondo. Un piatto fuori dal tempo e dallo spazio!',
-        'price' => 12.99,
-        'img' => 'uploads/gnocchi_spazio_profondo.jpg',
+        'dish_name' => 'Chicken Salad',
+        'description' => 'Salad with grilled chicken breast, lettuce, and ranch dressing.',
+        'price' => 11.99,
+        'img' => 'uploads/insalata_pollo.jpg',
         'visibility' => true,
         'user_id' => 8,
     ],
+
     [
-        'dish_name' => 'Tartare Interdimensionale',
-        'description' => 'Una tartare fatta con carne di un animale proveniente da un\'altra dimensione. Un\'esperienza culinaria oltre i confini della realtà!',
-        'price' => 16.99,
-        'img' => 'uploads/tartare_interdimensionale.jpg',
+        'dish_name' => 'Ham and Mushroom Pizza',
+        'description' => 'Pizza with tomato, mozzarella, ham, and mushrooms.',
+        'price' => 10.99,
+        'img' => 'uploads/pizza_prosciutto_funghi.jpg',
+        'visibility' => true,
+        'user_id' => 9,
+    ],
+
+    [
+        'dish_name' => 'Fettuccine Alfredo',
+        'description' => 'Fettuccine with Alfredo sauce made with cream and Parmesan cheese.',
+        'price' => 13.99,
+        'img' => 'uploads/fettuccine_alfredo.jpg',
+        'visibility' => true,
+        'user_id' => 10,
+    ],
+
+    // Additional dishes
+
+    [
+        'dish_name' => 'Shooting Stars Jam',
+        'description' => 'A delightful jam made with shooting stars handpicked during starry nights.',
+        'price' => 9.99,
+        'img' => 'uploads/marmellata_stelle_cadenti.jpg',
+        'visibility' => true,
+        'user_id' => 1,
+    ],
+
+    [
+        'dish_name' => 'Alien Extraterrestrial Pizza',
+        'description' => 'An extraordinary pizza with ingredients from other planets. Guaranteed intergalactic flavor!',
+        'price' => 15.49,
+        'img' => 'uploads/pizza_aliena_extraterrestre.jpg',
+        'visibility' => true,
+        'user_id' => 2,
+    ],
+
+    [
+        'dish_name' => 'Volcanic Spaghetti',
+        'description' => 'Spaghetti with a spicy volcano-inspired sauce. An explosion of flavor in every bite!',
+        'price' => 14.99,
+        'img' => 'uploads/spaghetti_vulcanici.jpg',
+        'visibility' => true,
+        'user_id' => 3,
+    ],
+
+    [
+        'dish_name' => 'Rainbow Sorbet',
+        'description' => 'Sorbet with all the colors of the rainbow. A unique and colorful taste experience!',
+        'price' => 8.99,
+        'img' => 'uploads/gelato_arcobaleno.jpg',
+        'visibility' => true,
+        'user_id' => 4,
+    ],
+
+    [
+        'dish_name' => 'Fairy Salad',
+        'description' => 'A light and magical salad made with fairy leaves and seasoned with star powder.',
+        'price' => 10.99,
+        'img' => 'uploads/insalata_fate.jpg',
+        'visibility' => true,
+        'user_id' => 5,
+    ],
+
+    [
+        'dish_name' => 'Starry Tiramisu',
+        'description' => 'A tiramisu inspired by constellations with a creamy galaxy of mascarpone and coffee.',
+        'price' => 11.99,
+        'img' => 'uploads/tiramisu_astrale.jpg',
+        'visibility' => true,
+        'user_id' => 6,
+    ],
+
+    [
+        'dish_name' => 'Interstellar Sushi',
+        'description' => 'Sushi made with ingredients from distant galaxies. Alien taste at your chopsticks!',
+        'price' => 18.99,
+        'img' => 'uploads/sushi_interstellare.jpg',
+        'visibility' => true,
+        'user_id' => 7,
+    ],
+
+    [
+        'dish_name' => 'Dinosaur Pasta',
+        'description' => 'Dinosaur-shaped pasta straight from the past. A culinary discovery!',
+        'price' => 12.99,
+        'img' => 'uploads/pasta_dinosauri.jpg',
+        'visibility' => true,
+        'user_id' => 8,
+    ],
+
+    [
+        'dish_name' => 'Alien Steak',
+        'description' => 'A steak from an unknown planet. Tender and flavorful from another world!',
+        'price' => 20.99,
+        'img' => 'uploads/bistecca_alienigena.jpg',
         'visibility' => true,
         'user_id' => 9,
     ],
     [
-        'dish_name' => 'Sformato delle Stelle',
-        'description' => 'Uno sformato con un ingrediente segreto proveniente da una stella lontana. Un\'esplosione di gusto a ogni forchettata!',
-        'price' => 10.99,
-        'img' => 'uploads/sformato_stelle.jpg',
+        'dish_name' => 'Alien Steak',
+        'description' => 'A steak from an unknown planet. Tender and flavorful from another world!',
+        'price' => 20.99,
+        'img' => 'uploads/bistecca_alienigena.jpg',
         'visibility' => true,
         'user_id' => 10,
     ],

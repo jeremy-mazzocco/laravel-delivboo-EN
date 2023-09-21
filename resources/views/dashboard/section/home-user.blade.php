@@ -20,10 +20,10 @@
                     {{ Auth::user()->email }}
                 </li>
                 <li class="mb-2">
-                    Tel.: {{ Auth::user()->phone_number }}
+                    Phone.: {{ Auth::user()->phone_number }}
                 </li>
                 <li class="mb-2">
-                    Partita Iva: {{ Auth::user()->vat_number }}
+                    VAT: {{ Auth::user()->vat_number }}
                 </li>
 
                 <li>

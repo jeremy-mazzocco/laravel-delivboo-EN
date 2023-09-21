@@ -2,7 +2,7 @@
 
 @section('dashboardSection')
     <h1 class="text-center fw-bold p-3">
-        I TUOI PIATTI
+        YOUR DISHES
     </h1>
 
     <div class="row" id="dish-show">
@@ -19,7 +19,7 @@
                             <p>{{ $dish->description }}</p>
                         </div>
                         <div class="my-2">&euro;{{ $dish->price }}</div>
-                        <div>Visibilità: {{ $dish->visibility ? 'Visibile' : 'Non visibile' }}
+                        <div>Visibily: {{ $dish->visibility ? 'Visibily' : 'Not Visible' }}
                         </div>
                         <a href="{{ route('dish.edit', $dish->id) }}" class="btn btn-warning">Edit</a>
 

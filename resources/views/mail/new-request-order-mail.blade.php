@@ -12,7 +12,6 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Usando Vite -->
     @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 
     <title>Deliveboo</title>
@@ -25,31 +24,31 @@
         </header>
         <div class="container">
             <h1>
-                Salve <span>{{ $user->restaurant_name }}</span>
+                Hi <span>{{ $user->restaurant_name }}</span>
             </h1>
             <br>
             <p>
-                Abbiamo un nuovo ordine...
+                A new order for you...
             </p>
             <br>
 
             <div class="txt">
                 <div>
-                    <b>Cliente: </b>
+                    <b>Client: </b>
                     {{ $newOrder->customer_name }}
                 </div>
                 <div>
-                    <b>Indirizzo di consegna: </b>
+                    <b>Delivery address: </b>
                     {{ $newOrder->customer_address }}
                 </div>
                 <div>
-                    <b>Telefono: </b> {{ $newOrder->phone_number }}
+                    <b>Phone number: </b> {{ $newOrder->phone_number }}
                 </div>
                 <div>
                     <b>Email: </b>{{ $newOrder->email }}
                 </div>
                 <br>
-                <b>Dettagli ordine: </b>
+                <b>Order details: </b>
                 <ul>
                     @foreach ($newOrder['dishes'] as $dish)
                         <li>
@@ -58,7 +57,7 @@
                         </li>
                     @endforeach
                 </ul>
-                <b>Totale: </b> {{ $newOrder->total_price }}
+                <b>Total: </b> {{ $newOrder->total_price }}
                 <br>
             </div>
         </div>

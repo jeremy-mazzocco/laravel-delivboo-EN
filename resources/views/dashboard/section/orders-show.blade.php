@@ -6,7 +6,7 @@
     @endphp
 
     <h1 class="text-center fw-bold p-3">
-        I TUOI ORDINI
+        YOUR ORDERS
     </h1>
     {{-- Schede e tabella switch --}}
     <div class="btn-group my-3 mx-auto bottoni-tab" role="group">
@@ -22,14 +22,14 @@
             <div class="order-container">
                 <div class="order col-3 gap-2">
                     <div class="order-status-container">
-                        <h6 class="titolo-ordine">Ordine N: {{ $orderNumber }}</h6>
+                        <h6 class="titolo-ordine">Order Number: {{ $orderNumber }}</h6>
                         <p class=" @if ($order->status) bg-success @else bg-danger @endif text-light text-center"
                             id="stato-ordine">
                             <b>{{ $order->status ? 'Completato' : 'In elaborazione' }}</b>
                         </p>
                     </div>
 
-                    <p class="order-time">Ordinazione: &nbsp&nbsp&nbsp&nbsp<span
+                    <p class="order-time">Date: &nbsp&nbsp&nbsp&nbsp<span
                             class="order-time-text">{{ $order->created_at }}</span></p>
 
                     <div class="dettagli m-2 text-light">
@@ -48,10 +48,10 @@
                             </p>
                             <div class="customer-datails ">
                                 <div>
-                                    Indirizzo: {{ $order->customer_address }}
+                                    Address: {{ $order->customer_address }}
                                 </div>
                                 <div>
-                                    Tel: {{ $order->phone_number }}
+                                    Phone Number: {{ $order->phone_number }}
                                 </div>
                                 <div>
                                     Email: {{ $order->email }}
@@ -65,14 +65,14 @@
                                 @foreach ($order->dishes as $dish)
                                     <div class="dish my-2">
                                         <p>{{ $dish->dish_name }}</p>
-                                        <div>Prezzo: &euro; {{ $dish->price }}</div>
-                                        <div>Quantità: {{ $dish->pivot->amount }}</div>
+                                        <div>Price: &euro; {{ $dish->price }}</div>
+                                        <div>Quantity: {{ $dish->pivot->amount }}</div>
                                     </div>
                                     <hr>
                                 @endforeach
                             </div>
                             <div class="fs-5">
-                                Totale: &euro;{{ $order->total_price }}
+                                Total: &euro;{{ $order->total_price }}
                             </div>
                         </div>
                     </div>
@@ -99,12 +99,12 @@
             <table id="TableId" class="table table-striped table-dark table-hover">
                 <thead class="table-header">
                     <tr>
-                        <th scope="col">Ordine</th>
-                        <th scope="col">Data</th>
-                        <th scope="col">Nome</th>
-                        <th scope="col">Totale</th>
+                        <th scope="col">Orders</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Total</th>
                         <th scope="col">Email</th>
-                        <th scope="col">Stato Ordine</th>
+                        <th scope="col">State</th>
                         <th style="width: 16px;" scope="col"></th>
                     </tr>
                 </thead>
@@ -117,7 +117,7 @@
                             <td>{{ $order->total_price }}</td>
                             <td>{{ $order->email }}</td>
                             <td class="{{ $order->status ? 'text-success' : 'text-danger' }}">
-                                {{ $order->status ? 'Completato' : 'Elaborazione' }}</td>
+                                {{ $order->status ? 'Complete' : 'In Progress' }}</td>
                             <td style="width: 16px;"></td>
                         </tr>
                         @php

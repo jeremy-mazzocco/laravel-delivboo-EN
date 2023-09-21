@@ -1,12 +1,8 @@
 <section class="p-4 edit-profile mt-3">
     <header>
         <h2 class="text-lg font-medium">
-            {{ __('Aggiorna Password') }}
+            {{ __('Update Password') }}
         </h2>
-
-        <p class="mt-1 text-sm ">
-            {{ __('Assicurati che il tuo account stia utilizzando una password lunga e complessa.') }}
-        </p>
     </header>
 
     <form method="post" action="{{ route('password.update') }}" class="mt-6 space-y-6">
@@ -14,7 +10,7 @@
         @method('put')
 
         <div class="mb-2">
-            <label for="current_password">{{ __('Password attuale') }}</label>
+            <label for="current_password">{{ __('Current password') }}</label>
             <input class="mt-1 form-control" type="password" name="current_password" id="current_password"
                 autocomplete="current-password">
             @error('current_password')
@@ -35,7 +31,7 @@
         </div>
 
         <div class="mb-2">
-            <label for="password_confirmation">{{ __('Conferma Password') }}</label>
+            <label for="password_confirmation">{{ __('Confirm Password') }}</label>
             <input class="mt-2 form-control" type="password" name="password_confirmation" id="password_confirmation"
                 autocomplete="new-password">
             @error('password_confirmation')
@@ -46,7 +42,7 @@
         </div>
 
         <div class="d-flex align-items-center gap-4">
-            <button type="submit" class="btn btn-primary">{{ __('Salva') }}</button>
+            <button type="submit" class="btn btn-primary">{{ __('Save') }}</button>
 
             @if (session('status') === 'password-updated')
                 <script>
@@ -57,7 +53,7 @@
                         el.style.display = 'block';
                     }
                 </script>
-                <p id='status' class=" fs-5 text-muted">{{ __('Salvato.') }}</p>
+                <p id='status' class=" fs-5 text-muted">{{ __('Saved') }}</p>
             @endif
         </div>
     </form>

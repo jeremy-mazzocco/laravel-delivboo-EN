@@ -2,7 +2,7 @@
 @section('content')
     <div class="jumbotron">
         <div id="title-jumbotron">
-            Benvenuto su DeliveBoo !
+            Welcome to DeliveBoo !
         </div>
     </div>
 @endsection

@@ -30,7 +30,7 @@
 
         {{-- NOME --}}
         <div class="mb-2">
-            <label for="restaurant_name">{{ __('Nome Ristorante') }}</label>
+            <label for="restaurant_name">{{ __('Restaurant Name') }}</label>
             <input class="form-control" type="text" name="restaurant_name" id="restaurant_name"
                 autocomplete="restaurant_name" value="{{ old('restaurant_name', $user->restaurant_name) }}" required
                 minlength="1" maxlength="255" autofocus>
@@ -41,7 +41,7 @@
 
         {{-- INDIRIZZO --}}
         <div class="mb-2">
-            <label for="address">{{ __('Locazione') }}</label>
+            <label for="address">{{ __('Location') }}</label>
             <input class="form-control" type="text" name="address" id="address" autocomplete="address"
                 value="{{ old('address', $user->address) }}" required minlength="5" maxlength="64" autofocus>
             @error('address')
@@ -85,7 +85,7 @@
 
         {{-- NUMERO DI TELEFONO --}}
         <div class="mb-2">
-            <label for="phone_number">{{ __('Numero di telefono') }}</label>
+            <label for="phone_number">{{ __('Phone Number') }}</label>
             <input class="form-control" type="text" name="phone_number" id="phone_number" autocomplete="phone_number"
                 value="{{ old('phone_number', $user->phone_number) }}" required minlength="9" maxlength="64"
                 autofocus>
@@ -97,7 +97,7 @@
 
         {{-- PARTITA IVA --}}
         <div class="mb-2">
-            <label for="vat_number">{{ __('Partita IVA') }}</label>
+            <label for="vat_number">{{ __('VAT') }}</label>
             <input class="form-control" type="text" name="vat_number" id="vat_number" autocomplete="vat_number"
                 value="{{ old('vat_number', $user->vat_number) }}" required minlength="13" maxlength="13" autofocus>
             @error('vat_number')
@@ -107,7 +107,7 @@
 
         {{-- TIPOLOGIA --}}
         <div class="mb-4 row">
-            <label for="phone_number" class="col-md-4 col-form-label text-md-right">{{ __('Tipologie') }}</label>
+            <label for="phone_number" class="col-md-4 col-form-label text-md-right">{{ __('Types') }}</label>
 
             <div class=" d-flex flex-wrap m-3">
                 @foreach ($types as $type)
@@ -125,7 +125,7 @@
 
             {{-- BOTTONE SUBMIT --}}
             <div class="d-flex align-items-center gap-4">
-                <button class="btn btn-primary" type="submit">{{ __('Salva') }}</button>
+                <button class="btn btn-primary" type="submit">{{ __('Save') }}</button>
 
                 @if (session('status') === 'profile-updated')
                     <script>
