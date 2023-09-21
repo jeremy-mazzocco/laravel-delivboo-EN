@@ -23,8 +23,8 @@
             <img src="../../../public/storage/images/Logo_DeliveBoo_fff8E8.png">
         </header>
         <div class="container">
-            <h1>
-                Hi <span>{{ $user->restaurant_name }}</span>
+            <h1 class="text-light">
+                Hello <span>{{ $user->restaurant_name }}</span>
             </h1>
             <br>
             <p>
