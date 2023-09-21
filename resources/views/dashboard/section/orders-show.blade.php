@@ -10,8 +10,8 @@
     </h1>
     {{-- Schede e tabella switch --}}
     <div class="btn-group my-3 mx-auto bottoni-tab" role="group">
-        <button id="btnSchede" type="button" class="nav-schede-tabella active">Schede</button>
-        <button id="btnTabella" type="button" class="nav-schede-tabella">Tabella</button>
+        <button id="btnSchede" type="button" class="nav-schede-tabella active">File</button>
+        <button id="btnTabella" type="button" class="nav-schede-tabella">Table</button>
     </div>
 
     {{-- schede --}}
@@ -25,7 +25,7 @@
                         <h6 class="titolo-ordine">Order Number: {{ $orderNumber }}</h6>
                         <p class=" @if ($order->status) bg-success @else bg-danger @endif text-light text-center"
                             id="stato-ordine">
-                            <b>{{ $order->status ? 'Completato' : 'In elaborazione' }}</b>
+                            <b>{{ $order->status ? 'Complete' : 'In Progress' }}</b>
                         </p>
                     </div>
 
@@ -33,7 +33,7 @@
                             class="order-time-text">{{ $order->created_at }}</span></p>
 
                     <div class="dettagli m-2 text-light">
-                        <span>Dettagli:</span>
+                        <span>Details:</span>
                         <i class="fa-solid fa-plus mx-2"></i>
                     </div>
                 </div>
@@ -92,7 +92,7 @@
     <div class="container-table d-none">
 
         <div class="input-group my-3 w-50 mx-auto">
-            <input type="text" id="searchInput" class="form-control" placeholder="Cerca...">
+            <input type="text" id="searchInput" class="form-control" placeholder="Search...">
         </div>
         <div class="table-responsive">
             {{-- table for orders --}}

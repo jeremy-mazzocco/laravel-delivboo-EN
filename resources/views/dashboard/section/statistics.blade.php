@@ -2,7 +2,7 @@
 
 @section('dashboardSection')
     <div class="card-header">
-        <h1>Statistiche</h1>
+        <h1>Statistics</h1>
         <p class="text-light text-center"><small>Income August 2023</small></p>
     </div>
 
@@ -29,7 +29,7 @@
             data: {
                 labels: dates,
                 datasets: [{
-                    label: 'Valore degli ordini per giorno',
+                    label: 'Orders p/day',
                     data: totals,
                     borderColor: 'rgba(75, 192, 192, 1)',
                     borderWidth: 1,
@@ -42,7 +42,7 @@
                         beginAtZero: true,
                         title: {
                             display: true,
-                            text: 'Giorni del mese'
+                            text: 'Day of the Month'
                         },
                     },
                     y: {
@@ -50,7 +50,7 @@
 
                         title: {
                             display: true,
-                            text: 'Valore (€)'
+                            text: 'Value (€)'
                         },
                         ticks: {
                             callback: function(value, index, values) {

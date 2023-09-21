@@ -23,7 +23,6 @@
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('storage/images/apple-touch-icon.png') }}">
 
 
-
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -34,10 +33,8 @@
     <!-- Usando Vite -->
     @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 
-    {{-- grafico --}}
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/2.0.2/luxon.min.js"></script>
-
 
 </head>
 
@@ -61,7 +58,7 @@
                     <!-- Right Side Of Navbar -->
                     <div class="d-flex">
                         <div class="me-3 mt-2">
-                            <a href="http://localhost:5173/" class="text-light text-decoration-none">Torna al sito</a>
+                            <a href="http://localhost:5174/" class="text-light text-decoration-none">Go to Website</a>
                         </div>
                         <div>
                             <ul class="navbar-nav ml-auto">
@@ -87,8 +84,8 @@
 
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown"
                                             id="dropdown-menu-edit">
-                                            <a class="dropdown-item" href="{{ url('dashboard') }}">{{ __('Profilo') }}</a>
-                                            <a class="dropdown-item" href="{{ url('profile') }}">{{ __('Modifica') }}</a>
+                                            <a class="dropdown-item" href="{{ url('dashboard') }}">{{ __('Profile') }}</a>
+                                            <a class="dropdown-item" href="{{ url('profile') }}">{{ __('Edit') }}</a>
                                             <a class="dropdown-item" href="{{ route('logout') }}"
                                                 onclick="event.preventDefault();
                                                          document.getElementById('logout-form').submit();">

@@ -20,7 +20,7 @@
             </div>
             <div class="text-nav">
                 <a href="{{ route('orders.show', Auth::user()->id) }}" class="text-decoration-none">
-                    Customers Order
+                    Customer Order
                 </a>
             </div>
             <div class="text-nav">

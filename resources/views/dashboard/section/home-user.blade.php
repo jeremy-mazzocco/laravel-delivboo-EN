@@ -25,7 +25,6 @@
                 <li class="mb-2">
                     VAT: {{ Auth::user()->vat_number }}
                 </li>
-
                 <li>
                     <?php
                     // Ottieni l'array delle tipologie dell'utente autenticato

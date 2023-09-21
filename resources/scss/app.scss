@@ -1,7 +1,6 @@
 @import '~bootstrap/scss/bootstrap';
 
 // Variables
-
 $blue: #30BCED;
 $dark-grey: #303036;
 $light-grey: #dbdbdb;
@@ -49,8 +48,6 @@ $black: #050401;
 
     }
 }
-
-
 
 
 /////////////////////////////////////
@@ -108,7 +105,6 @@ body {
 /////////////////////////////////////
 /// WELCOME.BLADE.PHP
 /////////////////////////////////////
-
 
 .jumbotron {
     text-align: center;
@@ -204,7 +200,7 @@ body {
         background-color: #434343; // Coerenza con il tema dark
         padding: 0;
         border-radius: 150px;
-        margin-bottom: 50px;
+        margin-bottom: 150px;
 
         .card {
             position: relative;
@@ -1028,7 +1024,7 @@ form {
         color: $dark-grey;
         font-weight: 600;
         transition: transform 0.2s ease;
-        margin-bottom: 10px; // Margine inferiore di 10px per creare uno spazio tra le "tipologie"
+        margin-bottom: 10px;
 
         &:hover {
             transform: translateY(-2px);
@@ -1068,8 +1064,8 @@ button.btn {
     }
 
     &:active {
-        // Effetto al click
-        transform: scale(0.97); // Rimpicciolire al 97% della dimensione originale
+        // Effetct click
+        transform: scale(0.97);
     }
 }
 
