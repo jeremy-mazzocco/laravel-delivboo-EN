@@ -16,14 +16,11 @@ class DashboardController extends Controller
 {
     public function index()
     {
-        // Metodo per visualizzare la pagina principale del pannello di controllo
         return view('dashboard.section.home-user');
     }
 
     public function show()
     {
-        // Metodo per visualizzare i piatti dell'utente loggato
-        // Puoi implementare la logica qui per recuperare i piatti dell'utente.
         return view('dashboard.section.dish-show');
     }
 
@@ -175,16 +172,16 @@ class DashboardController extends Controller
     {
         // Definizione dei messaggi di errore personalizzati per le regole di validazione
         return [
-            'dish_name.required' => 'Il nome del piatto è obbligatorio.',
-            'dish_name.min' => 'Il nome del piatto deve essere lungo almeno 2 caratteri.',
-            'dish_name.max' => 'Il nome del piatto non può superare i 64 caratteri.',
-            'description.max' => 'La descrizione non può superare i 1275 caratteri.',
-            'price.required' => 'Il prezzo del piatto è obbligatorio.',
-            'price.numeric' => 'Il prezzo del piatto deve essere un numero.',
-            'price.min' => 'Il prezzo del piatto non può essere negativo.',
-            'img.image' => 'Il file deve essere un\'immagine valida.',
-            'img.mimes' => 'Il file immagine deve essere di tipo JPEG, PNG o JPG.',
-            'visibility.required' => 'La visibilità del piatto è obbligatoria.'
+            'dish_name.required' => 'Dish name is required.',
+            'dish_name.min' => 'Dish name must be at least 2 characters long.',
+            'dish_name.max' => 'Dish name cannot exceed 64 characters.',
+            'description.max' => 'Description cannot exceed 1275 characters.',
+            'price.required' => 'Dish price is required.',
+            'price.numeric' => 'Dish price must be a number.',
+            'price.min' => 'Dish price cannot be negative.',
+            'img.image' => 'The file must be a valid image.',
+            'img.mimes' => 'The image file must be of type JPEG, PNG, or JPG.',
+            'visibility.required' => 'Dish visibility is required.'
         ];
     }
 }

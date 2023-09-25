@@ -4,16 +4,6 @@ use App\Http\Controllers\Dashboard\DashboardController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Qui è possibile registrare le route web per la tua applicazione.
-| Queste route sono caricate dal RouteServiceProvider e tutte verranno
-| assegnate al gruppo di middleware "web". Fai qualcosa di grandioso!
-|
-*/
 
 Route::get('/', function () {
     return view('welcome');

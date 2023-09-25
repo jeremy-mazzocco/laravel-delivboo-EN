@@ -84,7 +84,7 @@ class RegisteredUserController extends Controller
             'vat_number' => ['required', 'string', 'min:13', 'max:13', 'unique:' . User::class],
             'phone_number' => ['required', 'string', 'min:9', 'max:64'],
             'img' => ['image', 'mimes:jpeg,png,jpg'],
-            'types' => ['required','array','min:1'],
+            'types' => ['required', 'array', 'min:1'],
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
         ];
     }
@@ -93,23 +93,23 @@ class RegisteredUserController extends Controller
     {
         // Messaggi di errore personalizzati per le regole di validazione
         return [
-            "restaurant_name.required" => "Il nome del ristorante deve essere di almeno 1 carattere.",
-            "restaurant_name.min" => "Il nome del ristorante deve essere di almeno 1 carattere.",
-            "restaurant_name.max" => "Il nome del ristorante non può superare i 255 caratteri.",
-            'email.email' => "Deve essere un indirizzo email valido.",
-            'email.unique' => "Questo indirizzo email è già stato registrato.",
-            "address.min" => "L'indirizzo deve contenere almeno 5 caratteri.",
-            "address.max" => "L'indirizzo non può superare i 64 caratteri.",
-            "vat_number.min" => "La partita IVA deve contenere esattamente 13 caratteri.",
-            "vat_number.max" => "La partita IVA deve contenere esattamente 13 caratteri.",
-            "vat_number.unique" => "Questa partita IVA è già stata registrata.",
-            'phone_number.min' => "Il numero di telefono deve contenere almeno 9 caratteri.",
-            'phone_number.max' => "Il numero di telefono non può superare i 64 caratteri.",
-            'img.image' => 'Il file deve essere un\'immagine valida.',
-            'img.mimes' => 'Il file immagine deve essere di tipo JPEG, PNG o JPG.',
-            'types.required' => 'Almeno una casella deve essere selezionata.',
-            'types.min' => 'Almeno una casella deve essere selezionata.',
-            'password.confirmed' => 'Password non corretta.'
+            'restaurant_name.required' => 'Restaurant name must be at least 1 character.',
+            'restaurant_name.min' => 'Restaurant name must be at least 1 character.',
+            'restaurant_name.max' => 'Restaurant name cannot exceed 255 characters.',
+            'email.email' => 'It must be a valid email address.',
+            'email.unique' => 'This email address has already been registered.',
+            'address.min' => 'The address must contain at least 5 characters.',
+            'address.max' => 'The address cannot exceed 64 characters.',
+            'vat_number.min' => 'VAT number must contain exactly 13 characters.',
+            'vat_number.max' => 'VAT number must contain exactly 13 characters.',
+            'vat_number.unique' => 'This VAT number has already been registered.',
+            'phone_number.min' => 'Phone number must contain at least 9 characters.',
+            'phone_number.max' => 'Phone number cannot exceed 64 characters.',
+            'img.image' => 'The file must be a valid image.',
+            'img.mimes' => 'The image file must be of type JPEG, PNG, or JPG.',
+            'types.required' => 'At least one checkbox must be selected.',
+            'types.min' => 'At least one checkbox must be selected.',
+            'password.confirmed' => 'Password confirmation does not match.'
         ];
     }
 }
