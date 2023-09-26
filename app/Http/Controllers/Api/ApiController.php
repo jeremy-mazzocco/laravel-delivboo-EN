@@ -18,7 +18,6 @@ class ApiController extends Controller
     public function typeList()
     {
         $types = Type::all();
-        // $restaurant = User::all();
         $restaurant = User::with('types')->limit(10)->get();
 
         return response()->json([
@@ -59,7 +58,7 @@ class ApiController extends Controller
     {
 
         $data = $request->all();
-        // Creare l'ordine senza includere i dati dei piatti
+
         $newOrder = Order::create([
             'order_code' =>  $data['order_code'],
             'customer_name' => $data['customer_name'],
@@ -70,13 +69,11 @@ class ApiController extends Controller
             'total_price' => $data['total_price'],
         ]);
 
-        // Attach i piatti con la quantità
         foreach ($data['dishes'] as $dishData) {
             $dishID = $dishData['dish_id'];
             $newOrder->dishes()->attach($dishData['dish_id'], ['amount' => $dishData['amount']]);
         }
 
-        // Prendi User usano user_id
         $dish = $newOrder->dishes()->where('dish_id', $dishData['dish_id'])->first();
         $userID = $dish->user_id;
         $user = User::findOrFail($userID);

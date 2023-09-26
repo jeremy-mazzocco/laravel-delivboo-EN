@@ -6,23 +6,17 @@
         <p class="text-light text-center"><small>Income August 2023</small></p>
     </div>
 
-    {{-- grafico --}}
     <canvas id="myChart" width="400" height="200"></canvas>
 
     <script>
-        // Crea un array di numeri da 1 a 31
         const daysOfMonth = Array.from({
             length: 31
         }, (_, index) => index + 1);
 
-        // Estrai i dati degli ordini da PHP
         const dailyTotals = @json($dailyTotals);
-
-        // Estrai le date e i totali dai dati aggregati
         const dates = Object.keys(dailyTotals);
         const totals = Object.values(dailyTotals);
 
-        // Creazione del grafico utilizzando Chart.js
         const ctx = document.getElementById('myChart').getContext('2d');
         new Chart(ctx, {
             type: 'line',

@@ -17,7 +17,6 @@ class TypeTableSeeder extends Seeder
     public function run()
     {
         $typesData = include base_path('database/TypesData.php');
- 
 
         foreach ($typesData as $type) {
             Type::create($type);

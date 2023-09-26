@@ -118,6 +118,7 @@ class DashboardController extends Controller
 
         return view('dashboard.section.orders-show', compact('orders'));
     }
+    
     public function showStatistics($id)
     {
         $orders = Order::with('dishes')
@@ -138,6 +139,7 @@ class DashboardController extends Controller
     }
 
 
+
     // Validation Functions
 
     private function getValidations()
@@ -153,7 +155,6 @@ class DashboardController extends Controller
 
     private function getValidationMessages()
     {
-
         return [
             'dish_name.required' => 'Dish name is required.',
             'dish_name.min' => 'Dish name must be at least 2 characters long.',

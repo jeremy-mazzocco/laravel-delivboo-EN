@@ -17,9 +17,7 @@ use Illuminate\View\View;
 
 class RegisteredUserController extends Controller
 {
-    /**
-     * Mostra la vista di registrazione.
-     */
+
     public function create(): View
     {
         $types = Type::all();
@@ -27,19 +25,16 @@ class RegisteredUserController extends Controller
     }
 
     /**
-     * Gestisce una richiesta di registrazione in arrivo.
+     *
      *
      * @throws \Illuminate\Validation\ValidationException
      */
     public function store(Request $request): RedirectResponse
     {
-
-        // Validazione dei dati del modulo di registrazione
         $request->validate(
             $this->getValidations(),
             $this->getValidationMessages(),
         );
-
 
         $data = $request;
         if ($data['img']) {
@@ -48,8 +43,6 @@ class RegisteredUserController extends Controller
             $img_path = null;
         }
 
-
-        // Creazione di un nuovo utente
         $user = User::create([
             'restaurant_name' => $request->restaurant_name,
             'email' => $request->email,
@@ -62,21 +55,16 @@ class RegisteredUserController extends Controller
 
         $user->types()->attach($data['types']);
 
-        // Generazione dell'evento di registrazione
         event(new Registered($user));
-
-        // Login dell'utente appena registrato
+        
         Auth::login($user);
 
-        // Reindirizzamento alla pagina home
         return redirect(RouteServiceProvider::HOME);
     }
 
-    // FUNZIONI DI VALIDAZIONE
 
     private function getValidations()
     {
-        // Regole di validazione per i dati del modulo di registrazione
         return [
             'restaurant_name' => ['required', 'string', 'min:1', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:' . User::class],
@@ -91,7 +79,6 @@ class RegisteredUserController extends Controller
 
     private function getValidationMessages()
     {
-        // Messaggi di errore personalizzati per le regole di validazione
         return [
             'restaurant_name.required' => 'Restaurant name must be at least 1 character.',
             'restaurant_name.min' => 'Restaurant name must be at least 1 character.',
