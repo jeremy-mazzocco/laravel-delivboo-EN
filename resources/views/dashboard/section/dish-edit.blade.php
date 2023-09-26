@@ -3,7 +3,7 @@
 @section('dashboardSection')
     <div id="dish-edit">
         <h1 class="text-center fw-bold text-white p-3">
-           EDIT YOUR DISH
+            EDIT YOUR DISH
         </h1>
 
         <div class="w-75 m-auto my-2 p-4 d-flex justify-content-between" id="edit-card">

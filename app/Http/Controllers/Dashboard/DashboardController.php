@@ -26,7 +26,6 @@ class DashboardController extends Controller
 
     public function create()
     {
-        // Metodo per visualizzare il formulario di creazione dei piatti
         $types = Type::all();
 
         return view('dashboard.section.dish-create', compact('types'));
@@ -34,11 +33,9 @@ class DashboardController extends Controller
 
     public function store(Request $request)
     {
-        // Metodo per salvare un nuovo piatto nel database
         $data = $request->validate(
             $this->getValidations(),
             $this->getValidationMessages()
-
         );
 
         if (array_key_exists('img', $data) && $data['img'] !== null) {
@@ -46,10 +43,10 @@ class DashboardController extends Controller
         } else {
             $img_path = null;
         }
+        $data['img'] = $img_path;
 
         $userId = Auth::user()->id;
         $data['user_id'] = $userId;
-        $data['img'] = $img_path;
 
         $dish = Dish::create($data);
 
@@ -58,15 +55,12 @@ class DashboardController extends Controller
 
     public function edit($id)
     {
-        // Metodo per visualizzare il formulario di modifica di un piatto
         $dish = Dish::findOrFail($id);
-
         return view('dashboard.section.dish-edit', compact('dish'));
     }
 
     public function update(Request $request, $id)
     {
-        // Metodo per aggiornare i dati di un piatto esistente
         $data = $request->validate(
             $this->getValidations(),
             $this->getValidationMessages()
@@ -74,7 +68,6 @@ class DashboardController extends Controller
 
         $dish = Dish::findOrFail($id);
 
-        // Gestione dell'immagine
         $oldImgPath = $dish->img;
 
         if (!array_key_exists("img", $data)) {
@@ -94,7 +87,6 @@ class DashboardController extends Controller
 
     public function changeDeleted($id)
     {
-        // Metodo per cambiare lo stato "deleted" di un piatto
         $dish = Dish::findOrFail($id);
         $dish['deleted'] = !$dish['deleted'];
 
@@ -104,7 +96,6 @@ class DashboardController extends Controller
 
     public function deleteImg($id)
     {
-        // Metodo per eliminare l'immagine associata a un piatto
         $dish = Dish::findOrFail($id);
         $img_path = $dish->img;
 
@@ -114,13 +105,11 @@ class DashboardController extends Controller
 
         $dish->img = null;
         $dish->save();
-
         return back();
     }
 
     public function showOrders($id)
     {
-        // Metodo per visualizzare gli ordini associati ai piatti dell'utente
         $orders = Order::with('dishes')
             ->whereHas('dishes', function ($query) use ($id) {
                 $query->where('user_id', $id);
@@ -131,22 +120,17 @@ class DashboardController extends Controller
     }
     public function showStatistics($id)
     {
-        // Metodo per visualizzare gli ordini associati ai piatti dell'utente
         $orders = Order::with('dishes')
             ->whereHas('dishes', function ($query) use ($id) {
                 $query->where('user_id', $id);
             })
             ->get();
 
-        // Creazione di un array inizializzato con zeri per tutti i giorni del mese (da 1 a 31)
         $dailyTotals = array_fill(1, 31, 0);
 
-        // Calcola il totale per ogni giorno
         foreach ($orders as $order) {
             $dayOfMonth = (int)$order->created_at->format('d');
             $total = $order->total_price;
-
-            // Aggiorna il totale per il giorno del mese corrente
             $dailyTotals[$dayOfMonth] += $total;
         }
 
@@ -154,11 +138,10 @@ class DashboardController extends Controller
     }
 
 
-    // FUNZIONI DI VALIDAZIONE
+    // Validation Functions
 
     private function getValidations()
     {
-        // Definizione delle regole di validazione per i dati del piatto
         return [
             'dish_name' => ['required', 'min:2', 'max:64'],
             'description' => ['max:1275'],
@@ -170,7 +153,7 @@ class DashboardController extends Controller
 
     private function getValidationMessages()
     {
-        // Definizione dei messaggi di errore personalizzati per le regole di validazione
+
         return [
             'dish_name.required' => 'Dish name is required.',
             'dish_name.min' => 'Dish name must be at least 2 characters long.',

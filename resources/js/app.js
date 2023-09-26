@@ -24,11 +24,11 @@ window.addEventListener('DOMContentLoaded', event => {
 });
 
 window.confirmDelete = () => {
-    return confirm('Vuoi davvero eliminare questo elemento?');
+    return confirm('Do you want to cancel it?');
 }
 
 window.confirmEdit = () => {
-    return confirm('Vuoi applicare le modifiche?');
+    return confirm('Are you sure?');
 }
 
 // password validation in Registration form
@@ -43,13 +43,13 @@ document.addEventListener('DOMContentLoaded', function () {
     // Aggiungi un ascoltatore di eventi per l'input sulla conferma della password
     confirmPasswordInput.addEventListener('input', function () {
         if (passwordInput.value.length < 8) {
-            passwordInput.setCustomValidity('La password deve contenere almeno 8 caratteri.');
+            passwordInput.setCustomValidity('The password need at least 8 character.');
         } else {
             passwordInput.setCustomValidity('');
             // Controlla se il valore della conferma della password non corrisponde al valore della password principale
             if (confirmPasswordInput.value !== passwordInput.value) {
                 // Imposta un messaggio di errore personalizzato
-                confirmPasswordInput.setCustomValidity('Le password non corrispondono.');
+                confirmPasswordInput.setCustomValidity('The password does/t match.');
             } else {
                 // Se le password corrispondono, rimuovi il messaggio di errore personalizzato
                 confirmPasswordInput.setCustomValidity('');
